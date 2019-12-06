@@ -40,9 +40,8 @@ class MyTestCase(unittest.TestCase):
 
 
     def _do_one_test(self):
-        # n = randint(2, MAX_N)
-        n = 4
-        print("nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn::::::::::::::::::::", n)
+        # n = randint(2, MAX_N) This could cause a timeout due to inefficient algorithm
+        n = 4 # Use fixed value instead
         expected = self._productsum(n)
         self.assertEqual(productsum(n), expected, 'productsum(%d)' % n)
         # test.assert_equals(two_oldest_ages(ages), _reference(ages))

@@ -65,18 +65,3 @@ def min_product_sum(n):
 # if __name__ == "__main__":
 #     main()
 
-
-# print(*combinations_with_replacement(find_factors(4), 2))
-# combinations = combinations_with_replacement(find_factors(4), 2)
-# product_sums = set()
-# set_count = 0
-# for tuple in combinations:
-#     list_tuple = list(tuple)
-#     total = sum(list(tuple))
-#     product = reduce(lambda x, y: x * y, tuple)
-#     # product = numpy.prod(tuple)
-#     if total == product:
-#         print(tuple)
-#         product_sums.add(sum)
-#         set_count += 1
-
