@@ -1,7 +1,7 @@
 # MiscellaneousPy
 Miscellaneous katas in Python
 * ***Testing***
-  - python -m unittest discover -s ../ -p "*_test.py"
+  - python -m unittest discover -s ./ -p "*_test.py"
 
   - python -m unittest discover --verbose -s ./test/ -p "*_test.py"
 * ***Local cloud build***
