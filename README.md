@@ -1,4 +1,4 @@
-# MiscellaneousPy
+# misc_py
 Miscellaneous katas in Python
 * ***Testing***
   - python -m unittest discover -s ./ -p "*_test.py"
@@ -9,4 +9,4 @@ Miscellaneous katas in Python
   - cloud-build-local --config=[BUILD_CONFIG] --dryrun=false --write-workspace=[LOCAL_DIRECTORY_PATH] [SOURCE_CODE]
    
    - Example: 
-     - sudo cloud-build-local --config=/home/marylene/PycharmProjects/MiscellaneousPy/cloudbuild.yaml --dryrun=false --write-workspace=/home/mary/MiscyPy /home/marylene/PycharmProjects/MiscellaneousPy/  
+     - sudo cloud-build-local --config=/home/mary/PycharmProjects/misc_py/cloudbuild.yaml --dryrun=false --write-workspace=/home/mary/MiscyPy /home/mary/PycharmProjects/misc_py/  

@@ -16,7 +16,6 @@ def caesar_shift_single_character(l, amount):
     if i == -1:  # character not found in alphabet
         return ""  #  remove it, it's space or punctuation
     else:
-        it
         return number_to_letter(i + amount)  # Caesar shift
 
 
@@ -55,4 +54,21 @@ Only this and nothing more."
 
 code = caesar_shift(message, 2)
 print(code)
+t = '''
+swodkdbkfovvobpbywkxkxdsaeovkxngrycksndgyfkcdkxndbexuvoccvoqcypcdyx
+ocdkxnsxdronocobdxokbdrowyxdrockxnrkvpcexukcrkddobonfsckqovsocgrycop
+bygxkxngbsxuvonvszkxncxoobypmyvnmywwkxndovvdrkdsdccmevzdybgovvdrycoz
+kccsyxcbokngrsmriodcebfsfocdkwzonyxdrocovspovoccdrsxqcdrorkxndrkdwym
+uondrowkxndrorokbddrkdponkxnyxdrozonocdkvdrocogybnckzzokbwixkwoscyji
+wkxnskcusxqypusxqcvyyuyxwigybuciowsqrdikxnnoczksbxydrsxqlocsnobowksx
+cbyexndronomkiypdrkdmyvycckvgbomulyexnvocckxnlkbodrovyxokxnvofovckxn
+ccdbodmrpkbkgki
+'''
+
 find_most_common_letter(code)
+
+print("demoving::::::::::::::$$$$$$$$$$$$$$$$$$")
+decode = caesar_shift(t, -10)
+print("DECODED>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>", decode)
+
+
