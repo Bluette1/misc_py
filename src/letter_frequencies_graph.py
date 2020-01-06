@@ -1,4 +1,3 @@
-# See https://brilliant.org/courses/programming-python/https://brilliant.org/courses/programming-python/#chapter-introduction-28
 import matplotlib.pyplot as plt
 # from matplotlib import pyplot
 alphabet = "abcdefghijklmnopqrstuvwxyz"

@@ -1,5 +1,3 @@
-# see https://brilliant.org/courses/programming-python/#chapter-introduction-28
-
 from turtle import *
 
 width(5) # make the stroke 5 pixels wide

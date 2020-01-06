@@ -1,5 +1,3 @@
-# see https://brilliant.org/courses/programming-python/#chapter-introduction-28
-
 from turtle import *
 
 # Change code below to draw letter 'P'
