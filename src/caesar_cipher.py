@@ -16,7 +16,7 @@ def moving_shift(str, number):
         number += 1
     return output_str
 
-
+# Method to divide resulting caesar string
 def divide(output_str, str):
     divided = []
     if len(str) % 5 == 0:
@@ -27,7 +27,7 @@ def divide(output_str, str):
         divided.append(output_str[length_part * i:length_part * (i + 1)])
     return divided
 
-
+# Method to perform a caesar shift
 def demoving_shift(str, number):
     output_str = "".join(str)
     str = "".join(str)
@@ -49,6 +49,6 @@ s = 'I should have known that you would have a perfect answer for me!!!'
 moved = moving_shift('I should have known that you would have a perfect answer for me!!!', 1)
 demoved = demoving_shift(['J vltasl rlhr ', 'zdfog odxr ypw', ' atasl rlhr p ', 'gwkzzyq zntyhv', ' lvz wp!!!'], 1)
 print("demoved::::::::::::::::::::::::::::", demoved)
-print("demoved::::::::::::::::::::::::::::", moved)
+print("moved::::::::::::::::::::::::::::", moved)
 print(divide(moved, s))
 
