@@ -7,7 +7,8 @@ import re
 import sys
 
 
-# Complete the minimumBribes function below.
+# The minimumBribes function
+# see https://www.hackerrank.com/challenges/new-year-chaos/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=arrays
 def minimumBribes(queue):
     track = [0] * len(queue)
 
@@ -70,6 +71,7 @@ if __name__ == '__main__':
     t = int(input())
 
     for t_itr in range(t):
+        # Uncomment the next line to run on hackerrank
         # n = int(input())
 
         q = list(map(int, input().rstrip().split()))

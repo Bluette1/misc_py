@@ -1,6 +1,7 @@
 from string import ascii_lowercase
 from string import ascii_uppercase
 
+# Method to perform a caesar shift
 def moving_shift(str, number):
     output_str = str
     for i in range(len(output_str)):
@@ -48,6 +49,6 @@ s = 'I should have known that you would have a perfect answer for me!!!'
 moved = moving_shift('I should have known that you would have a perfect answer for me!!!', 1)
 demoved = demoving_shift(['J vltasl rlhr ', 'zdfog odxr ypw', ' atasl rlhr p ', 'gwkzzyq zntyhv', ' lvz wp!!!'], 1)
 print("demoved::::::::::::::::::::::::::::", demoved)
-print(moved)
+print("demoved::::::::::::::::::::::::::::", moved)
 print(divide(moved, s))
 
